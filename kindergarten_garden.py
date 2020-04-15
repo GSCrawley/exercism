@@ -28,5 +28,7 @@ class Garden:
         return [
             self.plant_names[garden_row[plant_column]] for garden_row in self.garden for plant_column in (student_slot,student_slot+1)]
         
-        return(plants(student))
+        return(plants())
         print(plants("Alice"))
+        print(plants("Ginny"))
+        print(plants("Joseph"))
